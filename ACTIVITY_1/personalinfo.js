@@ -32,21 +32,21 @@ const coursegrades = {
  const gwa = (coursegrades.course_1 + coursegrades.course_2 + coursegrades.course_3 + coursegrades.course_4 + coursegrades.course_5 + coursegrades.course_6 + coursegrades.course_7)/7;
 
 
-if (gwa > 100) {
+if (gwa > 98 && gwa < 100) {
     letterGrade = "A";
-} else if (gwa > 97) {
+} else if (gwa > 95 && gwa < 98) {
     letterGrade = "A-";
-} else if (gwa > 93) {
+} else if (gwa > 93 && gwa < 95) {
     letterGrade = "B+";
-}else if (gwa > 89) {
+}else if (gwa > 89 && gwa < 93) {
     letterGrade = "B-";
-} else if (gwa > 86) {
+} else if (gwa > 86 && gwa < 89) {
     letterGrade = "B";
-} else if (gwa > 82) {
+} else if (gwa > 82 && gwa < 86) {
     letterGrade = "C";
-} else if (gwa > 79) {
+} else if (gwa > 79 && gwa < 82) {
     letterGrade = "C-";
-} else if (gwa > 76) {
+} else if (gwa > 75 && gwa < 79) {
     letterGrade = "D";
 }else {
     letterGrade = "F";
